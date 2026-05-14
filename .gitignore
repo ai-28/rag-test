@@ -1,0 +1,17 @@
+.DS_Store
+
+# Local secrets — never commit (use *.example templates only)
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Backend
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+backend/data/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
